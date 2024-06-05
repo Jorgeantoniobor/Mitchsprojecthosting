@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Contact Us | Mitch`s Surf Shop</title>
+        <link href="../css/reset.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+        <link href="../css/styleMini.css" rel="stylesheet" type="text/css">
+    </head>
+   
+    <body>
+            <header>
+                <section class="menuwrap">
+                    <a href="../index.html"><img src="../images/logo.png" alt="mitchs logo" ></a>
+                    <i id="search">
+                            <a href="./about.html"><i class="fa-solid fa-magnifying-glass search-icon"></i></a>
+                    </i>
+                    <i id="shopcart">
+                        <a href="./cart.html"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+                    </i>
+                    <input type="checkbox" id="checkbox">
+                     <label for="checkbox"> 
+                        <i class="fa-solid fa-bars menuIcon"></i>
+                        <i class="fa-solid fa-xmark menuIconClose"></i>
+                        </label>
+            
+                <nav>   
+                    <ul> 
+                        <li> <a href="../index.html">Home</a></li>
+                        <li><a href="./lessons.html">Lessons</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                    </ul>
+                      
+                </nav>
+                  </section>  
+                  <section class="contactHeading-bg">
+                <h1 class="textShadow"><span>Get in touch!</span> Find us on social media or in store!
+                    </h1>
+            </section>
+            </header>
+            
+      <main class="contact-main">
+           <section>
+               <h2 class=shippingTag>Welcome to Mitch's Surf Shop!</h2>
+                    <p>Offering California's most innovative hand shaped surfboards since 1967. We are your water sports specialists with two stores in the San Diego area; La Jolla and Solana Beach. Mitch's crew is always glad to help!</p>
+                <h3 class=shippingTag>Visit Our Social Media!</h3>
+                    <p>To find up to date information, please <a href="media.html">visit our social media page!</a></p>
+                <h2 class=shippingTag>Mitch's La Jolla</h2>  
+                    <p>631 Pearl Street<br>La Jolla, CA USA 92037<br>(858)459-5933</p> 
+                    <p>Hours:<br>Monday-Saturday: 10:00am to 5:45pm<br>Sunday: 10am to 4:45pm</p>
+                    <p>Store: mitchslj@gmail.com</p>
+                    <p>Shipping Surfboards: mitchsnorth@gmail.com</p>
+                    <p>Online Orders: mitchsorders@gmail.com</p>
+                    <p>Mitch's Surf Shop of La Jolla is located near the world-famous Windansea surf break, and specializes in a full range of surfboards, wetsuits, spearfishing gear, rentals, surf/skate clothing and stand up paddleboarding supplies.</p>
+                <h2 class=shippingTag>Mitch's Solana Beach</h2>
+                    <p>363 North Highway 101<br>Solana Beach, CA USA 92075<br>(858)481-1354</p>
+                    <p>Hours:<br>Monday-Saturday: 10:15am to 5:45pm<br>Sunday: Closed</p>    
+                    <p>Store: mitchsnorth@gmail.com</p>
+                    <p>Shipping Surfboards: mitchsnorth@gmail.com</p>
+                    <p>Online Orders: mitchsorders@gmail.com</p>
+                    <p>Mitch's Surf Shop of Solana Beach is just south of Swamis and Pipes surf breaks on PCH 101, and specializes in a huge selection of surfboards, blanks and resin shaping supplies, wetsuits, board and suit rentals, skateboards and surf/skate clothing brands.</p>
+               
+           </section>
+            <section>
+               <aside>
+                   <h3 class=shippingTag>Rental Rates</h3>
+                       <p>Both of our shops have a large variety of surfboards and wetsuits for rent. All rental items are on a first come, first served basis. We require a credit card deposit. Our rentals are to be returned at the end of the shop's day, unless rented for more than 1 day.</p>
+                       <ul>
+                           <li>Wetsuits $10/day</li>
+                           <li>Soft Surfboards $20/day</li>
+                           <li>Fiberglass Surfboards $45/day</li>
+                           <li>Boogie Boards $10/day</li>
+                       </ul>
+                   <h3 class=shippingTag>Additionally at Mitch's La Jolla:</h3>
+                        <ul>
+                            <li>SUPs with paddles; $40/day</li>
+                            <li>Snorkles & Masks $10/day</li>
+                            <li>Swim Fins $5/day</li>
+                            
+                        </ul>
+               </aside>
+           
+    <form action="#" id="book" method="post">
+    <fieldset>
+        <legend>Rental Request Form</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="rental-item">Select Rental Item:</label>
+        <select id="rental-item" name="rental-item" required>
+            <option value="" disabled selected>Select an item</option>
+            <option value="wetsuit">Wetsuit - $10/day</option>
+            <option value="soft-surfboard">Soft Surfboard - $20/day</option>
+            <option value="fiberglass-surfboard">Fiberglass Surfboard - $45/day</option>
+            <option value="boogie-board">Boogie Board - $10/day</option>
+            <option value="sup">SUP with paddle - $40/day (La Jolla only)</option>
+            <option value="snorkle-mask">Snorkle & Mask - $10/day (La Jolla only)</option>
+            <option value="swim-fins">Swim Fins - $5/day (La Jolla only)</option>
+        </select><br><br>
+
+        <label for="rental-days">Number of Days:</label>
+        <input type="number" id="rental-days" name="rental-days" min="1" required><br><br>
+
+        <label for="shop-location">Select Shop Location:</label>
+        <select id="shop-location" name="shop-location" required>
+            <option value="" disabled selected>Select a location</option>
+            <option value="main-shop">Mitch's Solana Beach</option>
+            <option value="la-jolla">Mitch's La Jolla</option>
+        </select><br><br>
+
+        <label for="credit-card">Credit Card Number:</label>
+        <input type="text" id="credit-card" name="credit-card" required><br><br>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input class="submit" type="submit" value="Submit Rental Request">
+    </fieldset>
+</form>
+            </section>
+        </main>   
+        
+    <footer>
+        <div class="merge">
+            <section class="ftleft">
+                <a href="index.html"><img src="../images/logo.png" alt="mitchs logo" ></a>
+                <div class="text">
+                    <h3>About Mitch's Surf Shop</h3>
+                    <p>We stock over 600 new and used surfboards and accessories. We specialize in buying, selling, and trading.
+                    Our experienced team is committed to providing excellent customer service for the ultimate board buying experience.</p>
+                    <div class ="SMlogos">
+                        <i class="fa-brands fa-instagram"></i> 
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                </div>
+            </section> 
+            <section class="ftright">
+                <div class="columns">
+                    <div class="column">    
+                        <h3>The Brand</h3>
+                        <ul>
+                            <li><a href="./lessons.html">Lessons</a></li>
+                            <li><a href="./shop.html">Shop</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./faq.html">FAQ</a></li>    
+                        </ul>
+                    </div>        
+                    <div class="column">    
+                        <h3>Need help?</h3>    
+                        <ul>
+                            <li><a href="./faq.html">FAQS</a></li>
+                            <li><a href="./faq.html">Shipping & returns</a></li>
+                            <li><a href="./terms.html">Terms & conditions</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./terms.html">Privacy Policy</a></li>    
+                        </ul>
+                        </div>
+                </div>
+            </section>
+        </div> 
+            <section class="bottom">       
+                    <p>&copy;copyright 2024 Mitch`s surf shop</p>    
+            </section>        
+   
+     </footer> 
+    </body>
+</html>
